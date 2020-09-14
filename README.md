@@ -145,6 +145,8 @@ y listo, podemos ver nuestro chatbot en proceso.</p>
 
 ****DIAGRAMAS****
 
+<p>El diagrama del chatbot para pedir una pizza consta inicialmente de un saludo en el que se dirige al cliente mostrando su disponibilidad, posteriormente ingresa al nodo Ordenar_pizza, en el que el usuario ingresa el tipo de pizza que desea. Aquí contenemos tres opciones con sus respectivos sinónimos, los cuales pueden ser @ingredientes:hawaiana, @ingredientes:funghi, @ingredientes:pepperoni. Cada uno de estos contendrá sus respuestas configuradas. En el caso de no encontrar ninguna de estas, se dirigirá al nodo de en otras cosas, el cual imprimirá frases aleatorias, entre las que se encuentra “No le he entendido, intente reformular”. En cambio, en el caso de encontrar la respuesta, preguntará si desea algo más, si la respuesta es no, se dirigirá al nodo Despedida, pero de ser sí, se irá al nodo de Acompañantes. Dentro de este de igual manera se encuentran distintas opciones como son @acompa:ensala, @acompa: bebida, @acompa:salsa, las cuales tendrán respuestas configuradas, si no encuentra la palabra de igual forma irá al nodo de en otras cosas. De ser encontrado, se moverá al nodo de Despedida.</p>
+
 ![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img14.png)
 
 
