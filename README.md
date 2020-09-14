@@ -51,8 +51,7 @@
 
 <p>Se conecta a los canales que comúnmente usan los clientes (sitio web, teléfono,  canales de mensajería como Facebook, entre otros). </p>
 
-**Modo del chatbot **
-
+**Modo del chatbot**
 <p>Watson permite al usuario elegir de qué modo será el chatbot, este puede ser voz o chat.</p>
 
 <p><li>Chat web: Se puede implementar en minutos, además de incorporar un escalamiento de agentes sin problemas, un estilo personalizable y funciones de seguridad críticas.</li></p>
@@ -90,8 +89,7 @@
 
 ![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img4.png)
 
-**Intenciones: **
-
+**Intenciones:**
 <p>Se refieren a una acción que está vinculada a las preguntas que hace el usuario, sabiendo que se puede hacer las mismas preguntas de diferentes maneras, es muy complicado saber todas las opciones que se pueden ingresar. Por lo tanto en esta parte se dan ejemplos de frases y posteriormente el sistema hace generalizaciones para identificar otras intenciones comunes.</p>
 <p>Es importante saber que el bot tiene intenciones ya creadas, las cuales contienen temas que pueden ser usados en el desarrollo del bot, estas son: </p>
 
