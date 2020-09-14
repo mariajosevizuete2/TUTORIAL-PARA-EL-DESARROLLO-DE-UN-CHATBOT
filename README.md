@@ -1,7 +1,7 @@
 # TUTORIAL PARA EL DESARROLLO DE UN CHATBOT CON IBM WATSON
 
 ****PROBLEMA:****
-<p>¿Como es el modo de creación de un chatbot con  IBM Watson?</p>
+<p>¿Cómo es el modo de creación de un chatbot con  IBM Watson?</p>
 
 ****OBJETIVO GENERAL:****
 <p>Investigar mediante la abstracción de información sobre los CHATBOT y la realizar  un ejemplo práctico de su utilización mediante la ayuda de IBM WATSON. </p>
