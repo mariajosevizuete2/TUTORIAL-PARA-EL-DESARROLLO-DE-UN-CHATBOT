@@ -46,7 +46,8 @@
 <p><li>Cualquier contenido.</li></p>
 <p><li>Cualquier aplicación.</li></p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img1.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img1.png)
+
 
 <p>Se conecta a los canales que comúnmente usan los clientes (sitio web, teléfono,  canales de mensajería como Facebook, entre otros). </p>
 
