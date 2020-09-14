@@ -1,0 +1,1151 @@
+{
+  "intents": [
+    {
+      "intent": "acompañantes",
+      "examples": [
+        {
+          "text": "cuales acompañantes hay"
+        },
+        {
+          "text": "gracias"
+        },
+        {
+          "text": "que acompañantes tiene"
+        },
+        {
+          "text": "si deseo"
+        },
+        {
+          "text": "si por favor"
+        },
+        {
+          "text": "si quiero"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "¿Con qué tipo de robot estoy interactuando?"
+        },
+        {
+          "text": "¿Cuál es su versión?"
+        },
+        {
+          "text": "Cuántos idiomas hablas?"
+        },
+        {
+          "text": "De qué país eres?"
+        },
+        {
+          "text": "Dime tu nombre completo."
+        },
+        {
+          "text": "Dónde estás ahora mismo?"
+        },
+        {
+          "text": "¿Eres un representante oficial de conversación?"
+        },
+        {
+          "text": "Estoy buscando una solución para mejorar mi compromiso con los clientes"
+        },
+        {
+          "text": "¿Hablas alemán?"
+        },
+        {
+          "text": "Me gustaría configurar el bot de conversación para mi negocio."
+        },
+        {
+          "text": "Me puedes decir como se llama la aplicación?"
+        },
+        {
+          "text": "¿Puede darme información general sobre usted?"
+        },
+        {
+          "text": "¿Puede explicarme la diferencia entre este sistema y cualquier otro?"
+        },
+        {
+          "text": "Puedo hacerle algunas preguntas de validación de las ventas"
+        },
+        {
+          "text": "¿Puedo hacer mis preguntas usando Siri en lugar de esta aplicación?"
+        },
+        {
+          "text": "Qué color tienen tus ojos?"
+        },
+        {
+          "text": "Qué te gusta hacer en tu tiempo libre?"
+        },
+        {
+          "text": "Quiero crear un agente virtual que hable portugués"
+        },
+        {
+          "text": "Quiero entender cómo funcionas"
+        },
+        {
+          "text": "Tienes algún interés?"
+        }
+      ],
+      "description": "Solicitar atributos personales genéricos."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "¿Cómo funciona el filtro en la pantalla de capacidades?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas me puedes ayudar?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas están capaz de ayudarme?"
+        },
+        {
+          "text": "¿Cuáles son las opciones disponibles si estoy usando agente virtual?"
+        },
+        {
+          "text": "¿Podría darme una lista de temas con las que puede ayudarme?"
+        },
+        {
+          "text": "¿Podría esperar un momento por favor?"
+        },
+        {
+          "text": "¿Podría esperar un segundo por favor?"
+        },
+        {
+          "text": "¿Puedes ayudarme en cómo iniciar sesión en Virtual Agent?"
+        },
+        {
+          "text": "¿Puedes darme una lista de temas de cosas con las que puedes ayudarme?"
+        },
+        {
+          "text": "¿Puedes esperar un poquito?"
+        },
+        {
+          "text": "¿Puedo tener una lista de temas disponibles, con los que puedes ayudarme?"
+        },
+        {
+          "text": "¿Qué clase de cosas haces?"
+        },
+        {
+          "text": "¿Qué hace un agente digital? ¿Para qué te uso?"
+        },
+        {
+          "text": "¿Qué pasa si quiero cambiar la respuesta de texto para una intención?"
+        },
+        {
+          "text": "¿Qué tipo de información y problemas puedes resolver para mí?"
+        },
+        {
+          "text": "¿Qué tipo de preguntas puedes contestar? ¿Y cuáles son tus limitaciones de respuestas?"
+        },
+        {
+          "text": "¿Qué tipo de cosas puede hacer por mí?"
+        },
+        {
+          "text": "Tengo algunas preguntas y necesito ayuda, ¿puedo recibir ayuda?"
+        },
+        {
+          "text": "Tengo algunos problemas y quiero algo de información sobre cómo conseguir ayuda."
+        },
+        {
+          "text": "Tengo varios problemas y necesito saber con qué me puede ayudar."
+        }
+      ],
+      "description": "Solicitar capacidades del bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Ayudame a ponerme en contacto con una persona."
+        },
+        {
+          "text": "Buenos días podría hablar por teléfono contigo?"
+        },
+        {
+          "text": "Cómo puedo contactar un ser vivo?"
+        },
+        {
+          "text": "Creo que es mejor hablar con una persona."
+        },
+        {
+          "text": "Dejame hablar con un agente."
+        },
+        {
+          "text": "Deseo hablar con un agente."
+        },
+        {
+          "text": "Esto es muy frustrante, quiero hablar con una persona viva y real."
+        },
+        {
+          "text": "Hay algún ser vivo con cuál podría hablar?"
+        },
+        {
+          "text": "¿Hay un número de servicio al cliente que pueda usar para contactar a la compañía telefónica y hablar directamente con un agente?"
+        },
+        {
+          "text": "Hola! Estaba hablando con un agente y se me ha quedado colgado el chat y he perdido la conexión."
+        },
+        {
+          "text": "Hola, me conectas con el soporte tecnico?"
+        },
+        {
+          "text": "Hola, ¿podría transferirme al agente vivo, por favor?"
+        },
+        {
+          "text": "Hola, ¿puedes transferir mi llamada a un agente humano? Deseo hablar directamente con un ser humano."
+        },
+        {
+          "text": "Llama a un representante."
+        },
+        {
+          "text": "Mi factura está incorrecta, quiero hablar con un representante."
+        },
+        {
+          "text": "Nada contra maquinas, pero ponme con un operador."
+        },
+        {
+          "text": "Necesito hablar con alquien vivo."
+        },
+        {
+          "text": "Necesito hablar con una persona real, en lugar de un sistema automatizado de respuestas, por favor."
+        },
+        {
+          "text": "Necesito hablar directamente con un agente."
+        },
+        {
+          "text": "No quiero hablar con el agente virtual."
+        },
+        {
+          "text": "Pasame con un agente experto!"
+        },
+        {
+          "text": "Perfecto. Ahora, me gustaría hablar con un agente sobre algunos cargos."
+        },
+        {
+          "text": "Podrías ponerme en contacto con un operador?"
+        },
+        {
+          "text": "Por favor ayudame a contactar a un agente."
+        },
+        {
+          "text": "¿Puede enviarme un número telefónico para que hable con un representante humano de ventas?"
+        },
+        {
+          "text": "¿Puedes ayudarme a conectar con un agente?"
+        },
+        {
+          "text": "Puedes transferirme a un agente real?"
+        },
+        {
+          "text": "Puedo hablar con una persona?"
+        },
+        {
+          "text": "Puedo hablar con una persona real?"
+        },
+        {
+          "text": "¿Puedo tener información de contacto para hablar con un agente real?"
+        },
+        {
+          "text": "Quiero hablar con una persona."
+        },
+        {
+          "text": "Quiero que me pongan en contacto con un número diferente para las cosas relacionadas con esta cuenta."
+        },
+        {
+          "text": "Sería posible hablar con una persona?"
+        },
+        {
+          "text": "Transferirme a un agente por favor."
+        }
+      ],
+      "description": "Solicitar un agente humano"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Buenas tardes."
+        },
+        {
+          "text": "Cuídate!"
+        },
+        {
+          "text": "Eso ha sido todo lo que me hacía falta."
+        },
+        {
+          "text": "Fue agradable hablar contigo."
+        },
+        {
+          "text": "Gracias no necesito más ayuda."
+        },
+        {
+          "text": "Gracias, podemos cerrar esta conversación."
+        },
+        {
+          "text": "Gracias por tu ayuda, hasta luego."
+        },
+        {
+          "text": "Hablamos luego."
+        },
+        {
+          "text": "Hablaremos más tarde."
+        },
+        {
+          "text": "¡Muchas gracias, adiós!"
+        },
+        {
+          "text": "nada mas"
+        },
+        {
+          "text": "nada mas, muchas gracias"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "Nos vemos."
+        },
+        {
+          "text": "No tengo más dudas, gracias por tu ayuda."
+        },
+        {
+          "text": "OK, eso es todo lo que necesito saber."
+        },
+        {
+          "text": "Qué te lo pases bien."
+        },
+        {
+          "text": "Qué tengas una buena tarde."
+        },
+        {
+          "text": "¡Salud!"
+        },
+        {
+          "text": "Un saludo."
+        },
+        {
+          "text": "Usted es maravilloso. Gracias por su ayuda."
+        },
+        {
+          "text": "Vaya usted con Diós!"
+        },
+        {
+          "text": "Ya me voy."
+        }
+      ],
+      "description": "Fin de la conversacion."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Buenas noches."
+        },
+        {
+          "text": "Buenos días, podemos empezar la conversación?"
+        },
+        {
+          "text": "¿Cómo está? / Oye, ¿Qué tal?"
+        },
+        {
+          "text": "¿Estás ahí?"
+        },
+        {
+          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
+        },
+        {
+          "text": "Hey, ¿cómo te va?"
+        },
+        {
+          "text": "Hola, amigo mío."
+        },
+        {
+          "text": "Hola, ¿Cómo estás?"
+        },
+        {
+          "text": "Hola, Cómo estás el día de hoy?"
+        },
+        {
+          "text": "Hola, ¿Cómo te sientes?"
+        },
+        {
+          "text": "Hola, Cómo va todo?"
+        },
+        {
+          "text": "Hola, podrías responder mi pregunta?"
+        },
+        {
+          "text": "Hola ¿puedes ayudarme?"
+        },
+        {
+          "text": "Hola, quien me puede atender?"
+        },
+        {
+          "text": "Hola, Señor."
+        },
+        {
+          "text": "Quién eres?"
+        },
+        {
+          "text": "Sigues aquí?"
+        },
+        {
+          "text": "Tienes un momento, por favor?"
+        }
+      ],
+      "description": "Saluda al bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Eres un agente virtual?"
+        },
+        {
+          "text": "Eres una máquina o una persona real?"
+        },
+        {
+          "text": "Eres un operador virtual o vivo?"
+        },
+        {
+          "text": "Hablo con una máquina?"
+        },
+        {
+          "text": "Hablo con una persona?"
+        },
+        {
+          "text": "Me confirmas si hablo con un agente virtual o con un agente real?"
+        },
+        {
+          "text": "Podría hablar con un agente virtual?"
+        },
+        {
+          "text": "PPuedes decirme, si eres vivo o virtual?"
+        },
+        {
+          "text": "Preferiría hablar con un agente virutal."
+        },
+        {
+          "text": "Quiero saber si eres real o no"
+        },
+        {
+          "text": "Tu eres un agente virtual o real?"
+        }
+      ],
+      "description": "Preguntar si habla con un humano o un bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Cuál es tu chiste favorito?"
+        },
+        {
+          "text": "Cuéntame un chiste."
+        },
+        {
+          "text": "Dime algo divertido."
+        },
+        {
+          "text": "Dime otro chiste!"
+        },
+        {
+          "text": "Dime un chiste."
+        },
+        {
+          "text": "Dime un chiste sarcástico."
+        },
+        {
+          "text": "Divierteme!"
+        },
+        {
+          "text": "Estoy aburrido."
+        },
+        {
+          "text": "Me aburro."
+        },
+        {
+          "text": "Me gustan los chistes, cuéntame uno."
+        },
+        {
+          "text": "Me gustaría que me diviertas."
+        },
+        {
+          "text": "Puedes entretenerme?"
+        },
+        {
+          "text": "Puedo jugar juegos aquí?"
+        },
+        {
+          "text": "Qué sueles hacer para divertirte?"
+        },
+        {
+          "text": "Quiero reírme un poco, cuéntame algo divertido."
+        },
+        {
+          "text": "Sabes contar chistes?"
+        },
+        {
+          "text": "Sorpréndeme con algo chistoso."
+        },
+        {
+          "text": "Te gusta hacer chistes?"
+        },
+        {
+          "text": "Te gustan los chistes?"
+        },
+        {
+          "text": "Te ha pasado algo chistoso hoy?"
+        }
+      ],
+      "description": "Solicito una broma"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Cómo te atreves a tratarme de este modo?"
+        },
+        {
+          "text": "El agente era maldispuesto."
+        },
+        {
+          "text": "El comportamiento del agente era inapropiado."
+        },
+        {
+          "text": "Eres un inútil."
+        },
+        {
+          "text": "Espero no necesitar tu ayada más."
+        },
+        {
+          "text": "Este servicio no sirve para nada."
+        },
+        {
+          "text": "Estoy muy decepcionado."
+        },
+        {
+          "text": "Increíble, mi problema sigue sin resolverse un mes."
+        },
+        {
+          "text": "La peor experiencia que he tenido en mi vida con un agente."
+        },
+        {
+          "text": "Lo que me estás diciendo es muy frustrante."
+        },
+        {
+          "text": "Me has proporcionado la información errónea."
+        },
+        {
+          "text": "No estoy de acuerdo."
+        },
+        {
+          "text": "No me has dicho la verdad."
+        },
+        {
+          "text": "No me lo creo."
+        },
+        {
+          "text": "No me trates así."
+        },
+        {
+          "text": "No puede ser!"
+        },
+        {
+          "text": "No te mereces este trabajo."
+        },
+        {
+          "text": "Nunca me has ayudado."
+        },
+        {
+          "text": "Tu comportamiento es inexcusable."
+        },
+        {
+          "text": "Voy a quejarme."
+        }
+      ],
+      "description": "Expresar comentarios desfavorables."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "El agente era muy amable y resolvió mi problema inmediatamente."
+        },
+        {
+          "text": "El mejor soporte."
+        },
+        {
+          "text": "Eres el mejor."
+        },
+        {
+          "text": "Eres muy profesional."
+        },
+        {
+          "text": "Espero que me atiendas también la próxima vez."
+        },
+        {
+          "text": "Estoy muy contento con su servicio."
+        },
+        {
+          "text": "Es un placer trabajar contingo."
+        },
+        {
+          "text": "Excelente!"
+        },
+        {
+          "text": "Gracias."
+        },
+        {
+          "text": "Gracias por todo!"
+        },
+        {
+          "text": "Me alegraste el día."
+        },
+        {
+          "text": "Me gustaría llenar la encuesta de satisfacción."
+        },
+        {
+          "text": "Me salvaste!"
+        },
+        {
+          "text": "Muchísimas gracias por tu ayuda!"
+        },
+        {
+          "text": "Muy amable!"
+        },
+        {
+          "text": "Muy bien!"
+        },
+        {
+          "text": "Perfecto!"
+        },
+        {
+          "text": "Siempre puedo contar con su ayuda."
+        },
+        {
+          "text": "Siempre resuelves mis problemas, gracias."
+        }
+      ],
+      "description": "Expresar un sentimiento positivo o gratitud."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "¿Cómo puede asegurar que nuestra conversación por chat es confidencial?"
+        },
+        {
+          "text": "¿Cómo puedo garantizar la protección de la información de los consumidores?"
+        },
+        {
+          "text": "¿Cómo reconzco si su página web es confiable?"
+        },
+        {
+          "text": "¿Cómo saber que puedo confiar en la información obtenida en esta chat sesión?"
+        },
+        {
+          "text": "Cómo sé que este chat no es una estafa?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar su certificado de seguridad?"
+        },
+        {
+          "text": "Es esto un chat oficial?"
+        },
+        {
+          "text": "¿Hay alguna razón para desconfiar de este chat?"
+        },
+        {
+          "text": "Hay algunas precauciones contra los hackers?"
+        },
+        {
+          "text": "Hola El usuario desea garantías de que cualquier información que proporciona en la conversación está protegida y segura."
+        },
+        {
+          "text": "¿Mi informacion personal de pago es manejada seguramente?"
+        },
+        {
+          "text": "¿Puede confirmarme si esa red es segura?"
+        },
+        {
+          "text": "Puede demostrarme que esta conversación es segura?"
+        },
+        {
+          "text": "¿Pueden asegurarme que toda la información de mi cuenta está protegida?"
+        },
+        {
+          "text": "¿Puedo confiar en todo lo que leo en este chat?"
+        },
+        {
+          "text": "¿Puedo estar seguro que mi información de tarjeta guardada está cifrada y asegurada?"
+        },
+        {
+          "text": "¿Qué medidas de seguridad están usadas para asegurar que este chat es seguro?"
+        },
+        {
+          "text": "Qué sistemas de protección usan contra los hackers?"
+        },
+        {
+          "text": "Qué tipos de medidas se han tomado para proteger esta conversación?"
+        },
+        {
+          "text": "Quisiera asegurarme que mis detalles de tarjeta están seguros, ¿puedes hacerlo?"
+        }
+      ],
+      "description": "Expresar preocupaciones sobre la seguridad del bot."
+    },
+    {
+      "intent": "ordenar_pizza",
+      "examples": [
+        {
+          "text": "Deseo ordenar pizza"
+        },
+        {
+          "text": "Quiero ordenar pizza"
+        },
+        {
+          "text": "Quiero ordenar pizza a domicilio"
+        },
+        {
+          "text": "Quiero una pizza"
+        },
+        {
+          "text": "Solicito pizza a domicilio"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "acompañantes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bebida",
+          "synonyms": [
+            "agua",
+            "gaseosa",
+            "te"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ensaladas",
+          "synonyms": [
+            "ensalada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "salsa",
+          "synonyms": [
+            "mayonesa",
+            "salsa picante",
+            "salsas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ingredientes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "con pepperoni",
+          "synonyms": [
+            "con carne",
+            "con jamon",
+            "con pollo",
+            "con tocino"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "funghi",
+          "synonyms": [
+            "con champiñones",
+            "con hongos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hawaiana",
+          "synonyms": [
+            "con piña",
+            "dulce"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Saludo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿En qué le podemos ayudar?"
+              },
+              {
+                "text": "Hola, ¿en qué le ayudo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "Bienvenido",
+      "previous_sibling": "node_4_1600122982538"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_4_1599864703398",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1599864534216",
+      "context": {
+        "acompa": "@acompañantes"
+      },
+      "conditions": "@acompañantes",
+      "event_name": "input",
+      "dialog_node": "handler_1_1599864534249"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Qué acompañante desea?\nTenemos ensaladas, bebidas y salsas\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1599864534216",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1599864534249",
+      "previous_sibling": "handler_1_1599864534249"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Qué tipo de pizza desea?.\n\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1599862179455",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1599862179493",
+      "previous_sibling": "handler_8_1599862179493"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1599862179455",
+      "context": {
+        "ingredientes": "@ingredientes"
+      },
+      "conditions": "@ingredientes",
+      "event_name": "input",
+      "dialog_node": "handler_8_1599862179493"
+    },
+    {
+      "type": "frame",
+      "title": "Acompañantes",
+      "parent": "node_1_1599849264298",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#acompañantes",
+      "dialog_node": "node_10_1599864498567"
+    },
+    {
+      "type": "frame",
+      "title": "Ordenar_pizza",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#ordenar_pizza",
+      "dialog_node": "node_1_1599849264298",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En un momento le atendemos."
+              },
+              {
+                "text": "Su pedido está siendo procesado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_4_1599864703398",
+      "previous_sibling": "node_1_1599849264298"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bienvenido al restaurante de pizzas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_4_1600122982538"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "disabled": true,
+      "dialog_node": "response_10_1599859861875"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se encuentra lista para servir.\n¿Desea un acompañante?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1599849264298",
+      "conditions": "@ingredientes:funghi",
+      "dialog_node": "response_2_1599862251287",
+      "previous_sibling": "response_9_1599862178766"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disponemos de lechuga y tomate.¿Algo más?"
+              },
+              {
+                "text": "Tenemos ensalada rusa.\n¿Algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1599864498567",
+      "conditions": "@acompañantes:ensaladas",
+      "dialog_node": "response_3_1599864533749",
+      "previous_sibling": "slot_7_1599864534216"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Será un gusto atenderle.¿Algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1599864498567",
+      "conditions": "@acompañantes:bebida",
+      "dialog_node": "response_5_1599864623024",
+      "previous_sibling": "response_3_1599864533749"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es un placer atenderle. ¿Algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1599864498567",
+      "conditions": "@acompañantes:salsa",
+      "dialog_node": "response_6_1599864643229",
+      "previous_sibling": "response_5_1599864623024"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La pizza está lista en 15 minutos.\n¿Desea un acompañante?"
+              },
+              {
+                "text": "La pizza tardará un poco.\n¿Desea un acompañante?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1599849264298",
+      "conditions": "@ingredientes:hawaiana",
+      "dialog_node": "response_9_1599862178766",
+      "previous_sibling": "slot_7_1599862179455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En 5 minutos está lista.¿Desea un acompañante?"
+              },
+              {
+                "text": "En un momento estará lista.\n¿Desea un acompañante?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1599849264298",
+      "conditions": "@ingredientes:(con pepperoni)",
+      "dialog_node": "response_9_1599862277186",
+      "previous_sibling": "response_2_1599862251287"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1599849264298",
+      "variable": "$ingredientes",
+      "dialog_node": "slot_7_1599862179455",
+      "previous_sibling": "node_10_1599864498567"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1599864498567",
+      "variable": "$acompa",
+      "dialog_node": "slot_7_1599864534216"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Ordenar pizza",
+  "language": "es",
+  "description": ""
+}
