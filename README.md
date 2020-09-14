@@ -180,6 +180,8 @@ y listo, podemos ver nuestro chatbot en proceso.</p>
 ****APORTACIONES****
 
 ****CONCLUSIONES****
+<p>La plataforma de IBM aporta una facilidad al momento generar un chatbot pues esta es flexible y no necesitas conocimientos de programación para poder mostrar buenos resultados, al ser gratuita cualquier persona natural o jurídica puede incursionar en el ámbito de los chatbots y mejorar su empresa mediante este ingenioso software que mejorará significativamente la atención al usuario. 
+Del mismo modo, mediante la abstracción de información se obtuvo el conocimiento para generar un ejemplo práctico acerca de una pequeña empresa centralizada en la venta de comestibles. </p>
 
 ****RECOMENDACIONES****
 
