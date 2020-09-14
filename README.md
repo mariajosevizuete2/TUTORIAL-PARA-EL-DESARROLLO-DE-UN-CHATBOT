@@ -156,7 +156,22 @@ y listo, podemos ver nuestro chatbot en proceso.</p>
 ****MAPA DE VARIABLES****
 
 ![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img16.PNG)
+
 ****EXPLICACIÓN DE CÓDIGO FUENTE****
+
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "f024d62e-e24b-49f8-aa25-b9e69ad0cf6c", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "49a96bb5-d833-46bb-83b6-923b2ae8933e", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
 
 ****DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN****
 
