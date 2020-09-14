@@ -79,42 +79,45 @@
 
 <p>El segundo paso es ir al catálogo y seleccionar el servicio Watson assistant.</p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img2.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img2.png)
+
 <p>Al presionar Watson Assistant se abrirá una página, en la cual se puede añadir el nombre del servicio y posteriormente crearlo.</p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img3.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img3.png)
 
 <p>Después de hacer clic en Crear, se abrirá la página del asistente, la cual automáticamente se nombrará como “My first assistant”. Dentro de esta se creará una habilidad, que es donde se configurará el bot para su uso. </p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img4.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img4.png)
 
 **Intenciones: **
 <p>Se refieren a una acción que está vinculada a las preguntas que hace el usuario, sabiendo que se puede hacer las mismas preguntas de diferentes maneras, es muy complicado saber todas las opciones que se pueden ingresar. Por lo tanto en esta parte se dan ejemplos de frases y posteriormente el sistema hace generalizaciones para identificar otras intenciones comunes.</p>
 <p>Es importante saber que el bot tiene intenciones ya creadas, las cuales contienen temas que pueden ser usados en el desarrollo del bot, estas son: </p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img5.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img5.png)
+
 <p>Para crear nuestras propias intenciones, nos dirigimos a su sección y presionamos en crear intención. Para esto se requerirá del nombre de esta, con el símbolo #, y a continuación añadir las opciones que se cree que el cliente podría responder.</p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img6.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img6.png)
 
 **Entidades:**
 <p>Son conocidas como complementos de información, es decir las características del requerimiento.</p>
 <p>Es importante saber que Watson Conversation tiene entidades del sistema listas que no necesitan ser entrenadas. Para habilitarlas dependiendo de la necesidad que tengamos basta con encenderlas.</p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img7.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img7.png)
 
 <p>Para la creación de entidades, nos dirigimos a su respectivo apartado y colocamos en crear, estas se nombran con el símbolo @ en su inicio, y de igual manera se ingresa lo que el cliente podría solicitar, con los respectivos sinónimos o expresiones regulares.</p>
 
-*![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img8.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img8.png)
 
 **Diálogo:**
+
 <p>Para este paso el bot se encuentra completado. Posterior a esto se necesita crear las reglas de respuesta y el flujo de la conversación.</p>
 <p>Al crear el diálogo, se observa que se muestran dos cajas, la de «Bienvenido» y «En otros casos».</p>
 <p>Las dos variables de sistema nombradas se utilizan para la definición del mensaje enviado por el bot en los siguientes casos:</p>
 <p><li>El usuario entra en la interfaz.</li></p>
 <p><li>El bot no encuentra una respuesta relacionada a lo que el usuario ingresó.</li></p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img9.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img9.png)
 
 <p>Se presiona el cuadro de añadir nodo, en el que se colocarán las entidades e intenciones. También se puede añadir un nodo albergado dentro de otro, llamado “child node” . </p>
 
@@ -125,40 +128,39 @@
 <p><li>Múltiples respuestas condicionadas: Con esto se logra colocar diferentes respuestas según lo ingresado por el usuario. </li></p>
 <p>Los nodos se encuentran formados por un if then else, por lo que si reconoce una condición responde con esa información, de lo contrario, pasa al nodo siguiente.</p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img10.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img10.png)
 
 <p>Para verificar que el bot funciona correctamente se dirige a la parte derecha superior en el apartado intentar. En esta parte también nos mostrará las intenciones en las que se encuentra la respuesta.</p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img11.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img11.png)
 
 <p>Para visualizar el bot en funcionamiento, se dirigirá a la parte de asistente, seguido de añadir integración.</p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img12.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img12.png)
 
 <p>Con esto se redirigirá a la nueva ventana en la que se eligirá la opción de obtener link.
 y listo, podemos ver nuestro chatbot en proceso.</p>
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img13.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img13.png)
 
 ****DIAGRAMAS****
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img14.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img14.png)
 
 
 
 ****LISTA DE COMPONENTES****
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img15.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img15.png)
 
 ****MAPA DE VARIABLES****
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img16.PNG)
-
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img16.PNG)
 ****EXPLICACIÓN DE CÓDIGO FUENTE****
 
 ****DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN****
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img17.PNG)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img17.PNG)
 
 ****APORTACIONES****
 
@@ -168,10 +170,10 @@ y listo, podemos ver nuestro chatbot en proceso.</p>
 
 ****CRONOGRAMA****
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img18.PNG)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img18.PNG)
 
 ****ANEXOS****
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img19.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img19.png)
 
-![](https://github.com/mariajosevizuete2/Trabajo-extra/blob/master/IMG/img20.png)
+![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img20.png)
