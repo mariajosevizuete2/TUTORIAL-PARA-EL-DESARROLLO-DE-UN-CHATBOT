@@ -9,7 +9,7 @@
 ****OBJETIVOS ESPECÍFICOS:****
 <p><li>Identificar documentos recientes que tengan información acerca del desarrollo y aplicación de un chatbot con IBM Watson, para de esta manera generar un concepto básico del objeto a investigar y las distintas aplicaciones encontradas.</li></p>
 <p><li>Comprender los usos y funcionalidades del chatbot, junto con  cada una de sus configuraciones.</li></p>
-<p><li>Desarrollar un ejemplo básico en el que se visualice la creación de un asistente virtual, explicando de manera clara y concisa el modo de su creación. </li></p>
+<p><li>Desarrollar un ejemplo básico en el que se visualice la creación de un asistente virtual.</li></p>
 
 ****ESTADO DEL ARTE****
 
