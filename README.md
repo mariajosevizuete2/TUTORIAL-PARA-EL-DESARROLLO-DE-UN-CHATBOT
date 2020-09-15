@@ -199,6 +199,11 @@ de los ejemplos colocados en las intenciones y entidades. </p>
 Del mismo modo, mediante la abstracción de información se obtuvo el conocimiento para generar un ejemplo práctico acerca de una pequeña empresa centralizada en la venta de comestibles. </p>
 
 ****RECOMENDACIONES****
+<p><li>Se recomienda tener un conocimiento amplio sobre la empresa y sus requerimientos, para no olvidar detalles al momento de añadir posibles preguntas realizadas por los usuarios.</li></p>
+<p><li>Manejar un buen trato con los clientes, respondiendo de manera acertiva y clara para evitar confusiones.</li></p>
+<p><li>Realizar varias veces una prueba acerca de cómo funciona el chatbot, ya que posiblemente se esté ignorando algún detalle.</li></p>
+<p><li>Colocar correctamente las intenciones y entidades sin confundir los conceptos ya que en esos casos no funcionará.</li></p>
+
 
 ****CRONOGRAMA****
 
