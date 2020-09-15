@@ -159,21 +159,26 @@ y listo, podemos ver nuestro chatbot en proceso.</p>
 
 ![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img16.PNG)
 
+
 ****EXPLICACIÓN DE CÓDIGO FUENTE****
 
-<script>
-  window.watsonAssistantChatOptions = {
-      integrationID: "f024d62e-e24b-49f8-aa25-b9e69ad0cf6c", // The ID of this integration.
-      region: "us-south", // The region your integration is hosted in.
-      serviceInstanceID: "49a96bb5-d833-46bb-83b6-923b2ae8933e", // The ID of your service instance.
-      onLoad: function(instance) { instance.render(); }
-    };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-    document.head.appendChild(t);
-  });
-</script>
+<p>Como primer paso, se buscó en el catálogo de contenido la categoría general y se la añadió a la habilidad, con esto se puede tener más variedad de entradas generales, en el caso mostrado, se usarán las intenciones de #General_Greetings y #General_Ending.</p>
+
+****imagen****
+<p>Después de esto se crea el resto de las intenciones y entidades a ser utilizadas.</p>
+<p>Como intenciones creadas se encuentran #acompañantes y #ordenar_pizza y como entidades están @ingredientes y @acompañantes.</p>
+<p>Posterior a esto, en el primer nodo “Bienvenido” se coloca la frase con la que se iniciará la conversación.</p>
+<p>Bajo el nodo nombrado, se añade el nodo “Saludo”. En esta parte se llamará a la intención #General_Greetings y se colocarán las respuestas del bot.</p>
+****imagen****
+<p>En el siguiente nodo se llamará a la intención #ordenar_pizza y  se activará la rejilla y múltiples respuestas condicionadas. En la rejilla se coloca la entidad @ingredientes, la variable que se crea automáticamente y el texto a mostrar en caso de no encontrar lo ingresado por el cliente. En múltiples respuestas condicionadas, se coloca de igual manera la entidad seguido de cada una de las posibles respuestas escritas por el cliente, y en el cuadro a la derecha de estas se escribe la respuesta para cada condición.</p>
+****imagen****
+<p>En el nodo child nombrado “Acompañantes”, se llama a la intención #acompañantes y se repite el proceso anterior, configurando las múltiples respuestas para la entidad @acompañantes.</p>
+****imagen****
+<p>En el nodo “Despedida”, se llama a la intención #General_Ending, para las múltiples respuestas que tendrá el usuario al momento de concluir lo solicitado.</p>
+<p>Y por último, se encuentra el nodo “En otras cosas”, este servirá en el caso de que el usuario ingrese una palabra o frase que no se entienda o que no forme parte 
+de los ejemplos colocados en las intenciones y entidades. </p>
+****imagen****
+
 
 ****DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN****
 
