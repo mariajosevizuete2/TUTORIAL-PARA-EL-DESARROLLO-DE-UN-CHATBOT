@@ -180,6 +180,7 @@ y listo, podemos ver nuestro chatbot en proceso.</p>
 <p>En el nodo “Despedida”, se llama a la intención #General_Ending, para las múltiples respuestas que tendrá el usuario al momento de concluir lo solicitado.</p>
 <p>Y por último, se encuentra el nodo “En otras cosas”, este servirá en el caso de que el usuario ingrese una palabra o frase que no se entienda o que no forme parte 
 de los ejemplos colocados en las intenciones y entidades. </p>
+
 ![](https://github.com/mariajosevizuete2/TUTORIAL-PARA-EL-DESARROLLO-DE-UN-CHATBOT/blob/master/IMG/img27.PNG)
 
 **** ****
