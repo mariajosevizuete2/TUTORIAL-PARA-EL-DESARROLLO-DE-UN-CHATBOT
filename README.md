@@ -190,6 +190,10 @@ de los ejemplos colocados en las intenciones y entidades. </p>
 
 ****APORTACIONES****
 
+<p>Como aportaciones al trabajo se tiene que se personalizaron los nodos para una mejor experiencia con el chatbot. Con esto se crearon respuestas para cada condición ingresada a más de un bucle para repetir el enunciado en caso de no encontrar la respuesta.</p>
+<p>También cada uno de los mensajes del chatbot fue colocado en modo randómico para que cada vez que se desee probarlo aparezcan respuestas distintas.</p>
+<p>Como último punto se usó una categoría del contenido general para con esta lograr entender de manera más amplia los distintos saludos y despedidas del usuario y brindar una respuesta.</p>
+
 ****CONCLUSIONES****
 <p>La plataforma de IBM aporta una facilidad al momento generar un chatbot pues esta es flexible y no necesitas conocimientos de programación para poder mostrar buenos resultados, al ser gratuita cualquier persona natural o jurídica puede incursionar en el ámbito de los chatbots y mejorar su empresa mediante este ingenioso software que mejorará significativamente la atención al usuario. 
 Del mismo modo, mediante la abstracción de información se obtuvo el conocimiento para generar un ejemplo práctico acerca de una pequeña empresa centralizada en la venta de comestibles. </p>
