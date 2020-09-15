@@ -211,6 +211,12 @@ Del mismo modo, mediante la abstracción de información se obtuvo el conocimien
 
 ****BIBLIOGRAFÍA:****
 <p>IBM Corp. Released 2017. IBM SPSS Statistics for Windows, Version 25.0. Armonk, NY: IBM Corp.</p>
+<p>Alto, R. (2012). La era de los sistemas cognitivos: una mirada al interior de IBM Watson y cómo funciona. IBM Corporation, Redbooks , 1-16.</p>
+<p>Strickland, E. (2019). IBM Watson, cúrate a ti mismo: cómo IBM se comprometió en exceso y no se entregó a la atención médica de IA. Espectro IEEE, 56 (4), 24-31.</p>
+<p>Rahman, AM, Al Mamun, A. e Islam, A. (2017, diciembre). Desafíos de programación del chatbot: prospectiva actual y futura. En 2017, IEEE Region 10 Humanitarian Technology Conference (R10-HTC) (págs. 75-78). IEEE.</p>
+<p>Cahn, J. (2017). CHATBOT: Arquitectura, diseño y desarrollo. Facultad de Ingeniería y Ciencias Aplicadas de la Universidad de Pensilvania Departamento de Informática y Ciencias de la Información.</p>
+
+
 
 ****ANEXOS****
 
